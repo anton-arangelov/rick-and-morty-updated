@@ -1,0 +1,12 @@
+.DetailedEpisode {
+  width: 80%;
+  border: 1px solid black;
+  margin: 10% auto auto;
+  box-sizing: border-box;
+}
+
+.Text {
+  margin: 3px 1.2em;
+}
+
+
