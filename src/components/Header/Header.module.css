@@ -1,0 +1,125 @@
+.Header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  padding: 0 2rem;
+}
+
+.Search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Search label{
+  margin: auto;
+  padding: 1.2em;
+  color: white;
+}
+
+.Search input{
+  width: 15em;
+}
+
+.Search p{
+  color: rgba(255, 255, 255, 0.877);
+  cursor: pointer;
+}
+
+.Search p:hover{
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+
+.Button {
+  display: flex;
+  margin: 1em auto;
+  cursor: pointer;
+  font: inherit;
+  color: teal;
+  border: none;
+  background-color: none;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.Button:hover {
+  color: white;
+  background-color: rgb(3, 163, 163);
+}
+
+.Button:focus{
+    outline: none;
+}
+
+.Link {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  color: teal;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.877);
+  width: 4.5em;
+  height: 1.1em;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.4em;
+  border-radius: 3em;
+  margin: 1.1em;
+}
+
+.Link:hover {
+  color: white;
+  background-color: rgb(3, 163, 163);
+}
+
+.Link:focus{
+  outline: none;
+}
+
+
+
+.DetailedSearch{
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  padding-left: 2rem;
+  padding-right: 5rem;
+  animation: display 0.5s ease-out;
+}
+
+
+.Select{
+  width: 15em;
+  height: 2em;
+  cursor: pointer;
+ }  
+
+.DetailedSearch div label{
+  margin-right: 5%;
+  /* width: 20%; */
+}
+
+.DetailedSearch div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  width: 25%;
+}
+
+@keyframes display{
+  0%{
+    transform: translateY(-20%);
+  }
+  100%{
+    transform: translateY(1);
+  }
+}

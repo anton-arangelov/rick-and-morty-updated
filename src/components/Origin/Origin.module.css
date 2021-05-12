@@ -1,0 +1,52 @@
+.Origin {
+  width: 80%;
+  border: 1px solid black;
+  margin: 2% auto;
+  box-sizing: border-box;
+}
+
+.Text {
+  margin: 3px 1.2em;
+}
+
+.Window {
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.WindowCharacter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  height: 2.5em;
+  align-items: center;
+  background-color: teal;
+}
+
+.Button {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  color: teal;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.877);
+  width: 4.5em;
+  height: 1.1em;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.4em;
+  border-radius: 3em;
+  margin: 1.1em;
+}
+
+.Button:hover {
+  color: white;
+  background-color: rgb(3, 163, 163);
+}
+
+.Button:focus {
+  outline: none;
+}
